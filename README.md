@@ -1,26 +1,20 @@
-# Job4j. Идеальный вес.
-Проект содержит решения блока "6. Идеальный вес [#41584]" курса Job4j."
+# Job4j. Расстояние между точками в системе коородинат.
+Проект содержит решения блока "7. Расстояние между точками в системе координат [#188]" курса Job4j."
 Задание:
-1. Доработал методы manWeight и womanWeight. Было:
-package ru.job4j.calculator;
+1. Создал класс ru.job4j.condition.Point. Дописал метод distance.
+2. Доработал метод mail.
+3. Загрузил на github.com
+Было:
+package ru.job4j.condition;
 
-public class Fit {
-
-    public static double manWeight(short height) {
-        double rsl = -1;
-        return rsl;
-    }
-
-    public static double womanWeight(short height) {
+public class Point {
+    public static double distance(int x1, int y1, int x2, int y2) {
         double rsl = -1;
         return rsl;
     }
 
     public static void main(String[] args) {
-        short height = 187;
-        double man = Fit.manWeight(height);
-        System.out.println("Man 187 is " + man);
+        double result = Point.distance(0, 0, 2, 0);
+        System.out.println("result (0, 0) to (2, 0) " + result);
     }
-
 }
-2. Загрузил на github.com.
