@@ -2,6 +2,7 @@ package ru.job4j.condition;
 
 public class SqArea {
     public static double square(double p, double k) {
+
         /* Задача:
         Периметр прямоугольника: p = 2 * (L + h), где L - длина; h - высота.
         В задании известно, что длина больше высоты в k  раз, т.е  L = h * k.
@@ -25,6 +26,7 @@ public class SqArea {
         L = 1 * 1 = 1;
         S = 1 * 1 = 1.
          */
+
         double h = p / (2 * (k + 1));
         double l = h * k;
         double s = l * h;
