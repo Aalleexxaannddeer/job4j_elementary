@@ -4,6 +4,7 @@
 1. Создал ru.job4j.condition.SqArea. Дописал метод square.
 2. Доработал метод main с демонстрацией работы программы с параметрами p = 6, k = 2, площадь получил равную 2.
 Было:
+
 package ru.job4j.condition;
 
 public class SqArea {
@@ -17,4 +18,5 @@ public class SqArea {
         System.out.println(" p = 4, k = 1, s = 1, real = " + result1);
     }
 }
+
 3. Загрузите код в github. 
