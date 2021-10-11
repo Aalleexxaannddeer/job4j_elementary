@@ -3,7 +3,6 @@
 Задание:
 1. Создал класс ru.job4j.condition.Point. Дописал метод distance.
 2. Доработал метод mail.
-3. Загрузил на github.com
 Было:
 package ru.job4j.condition;
 
@@ -18,3 +17,4 @@ public class Point {
         System.out.println("result (0, 0) to (2, 0) " + result);
     }
 }
+3. Загрузил на github.com
