@@ -1,22 +1,21 @@
-# Job4j. Стороны прямоугольника.
-Проект содержит решения блока "Стороны прямоугольника. [#137735]" курса Job4j."
+# Job4j. Расстояние между точками в системе координат.
+Проект содержит решения блока "7. Расстояние между точками в системе координат [#188 #214677]" курса Job4j."
 Задание:
-1. Создал ru.job4j.condition.SqArea. Дописал метод square.
-2. Доработал метод main с демонстрацией работы программы с параметрами p = 6, k = 2, площадь получил равную 2.
-Было:
+1. Создал класс ru.job4j.condition.Point. Дописал метод distance.
+2. Доработал метод main. 
+3. Загрузил код на github.com. 
+Изначально:
 
 package ru.job4j.condition;
 
-public class SqArea {
-    public static double square(double p, double k) {
+public class Point {
+    public static double distance(int x1, int y1, int x2, int y2) {
         double rsl = -1;
         return rsl;
     }
 
     public static void main(String[] args) {
-        double result1 = SqArea.square(4, 1);
-        System.out.println(" p = 4, k = 1, s = 1, real = " + result1);
+        double result = Point.distance(0, 0, 2, 0);
+        System.out.println("result (0, 0) to (2, 0) " + result);
     }
 }
-
-3. Загрузите код в github. 
