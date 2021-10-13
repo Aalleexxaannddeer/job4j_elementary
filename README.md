@@ -6,6 +6,7 @@
 3. Загрузил код на github.com. 
 Изначально:
 
+
 package ru.job4j.condition;
 
     public class SqArea { 
