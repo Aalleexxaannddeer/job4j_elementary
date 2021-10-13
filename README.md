@@ -1,22 +1,20 @@
-# Job4j. Стороны прямоугольника.
-Проект содержит решения блока "8. Стороны прямоугольника. [#137735 #214713]" курса Job4j."
+# Job4j. Площадь прямоугольника.
+Проект содержит решения блока "9.Площадь треугольника. [#175474]" курса Job4j."
 Задание:
-1. Создал класс ru.job4j.condition.SqArea. Дописал метод square.
-2. Доработал метод main. 
-3. Загрузил код на github.com. 
-Изначально:
-
-
+1. Реализовал метод area. Дописал вычисление площади по формуле Герона. 
+2.Загрузил код на github.com. 
+Изначально было:
 package ru.job4j.condition;
 
-    public class SqArea { 
-    public static double square(double p, double k) {
-    double rsl = -1;
-    return rsl;
+public class TrgArea {
+
+    public static double area(double a, double b, double c) {
+        double rsl = -1;
+        return rsl;
 }
 
     public static void main(String[] args) {
-    double result1 = SqArea.square(4, 1);
-    System.out.println(" p = 4, k = 1, s = 1, real = " + result1);
+        double rsl = TrgArea.area(2, 2, 2);
+        System.out.println("area (2, 2, 2) = " + rsl);
     }
 }
