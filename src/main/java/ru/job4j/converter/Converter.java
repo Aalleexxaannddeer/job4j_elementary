@@ -20,8 +20,8 @@ public class Converter {
         boolean passed = expected == out;
         System.out.println("140 rubles are 2. Test result : " + passed);
         float inOne = 120;
-        double expectedOne = 2;
-        double outOne = Converter.rubleToDollar(inOne);
+        float expectedOne = 2;
+        float outOne = Converter.rubleToDollar(inOne);
         boolean passedOne = expectedOne == outOne;
         System.out.println("120 rubles are 1. Test result: " + passedOne);
     }
