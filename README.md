@@ -1,25 +1,19 @@
-# Job4j. 0. Что такое тестирование [#159431].
-Проект содержит решения блока "0. Что такое тестирование [#159431]" курса Job4j.
+# Job4j. 9.1. String [#237407 #215948].
+Проект содержит решения блока "9.1. String [#237407 #215948]" курса Job4j.
 Задание:
-1. Создал класс ru.job4j.converter.Converter;
-2. Изначально было:
+1. Создал класс ru.job4j.condition.Greeting.;
+2. Выполнил следующее задание (см. п. 2.1:
+Внутри метода main выполните следующие действия:
 
-package ru.job4j.converter;
+- создайте переменную с именем idea типа String и присвойте ей значение "I like Java!";
 
-public class Converter {
+- выведите на консоль эту переменную через команду System.out.println(idea);
 
-    public static float rubleToEuro(float value) {
-        return value / 70;
-    }
+- присоедините к переменной idea строку "But I am a newbie.";
 
-    public static float rubleToDollar(float value) {
-        return -1;
-    }
+- создайте переменную year с типом int и присвойте ей текущий год.
 
-    public static void main(String[] args) {
-        float euro = Converter.rubleToEuro(140);
-        System.out.println("140 rubles are " + euro + " euro.");
-    }
-}
+- присоедините к переменной idea переменную year;
 
+- выведите на консоль эту переменную через команду System.out.println(idea);
 3.Загрузил код на github.com;
