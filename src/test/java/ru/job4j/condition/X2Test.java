@@ -49,5 +49,6 @@ public class X2Test {
         int expectedFour = 1;
         int rslFour = X2.calc(aFour, bFour, cFour, xFour);
         Assert.assertEquals(expectedFour, rslFour);
+
     }
 }
