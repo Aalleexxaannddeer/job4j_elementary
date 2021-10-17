@@ -9,21 +9,21 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-    public static double differenceAndDivision(double first, double second) {
-        return difference(first, second)
-                + division(first, second);
+    public static double plusdifferenceAndPlusdivision(double first, double second) {
+        return plusdifference(first, second)
+                + plusdivision(first, second);
     }
 
-    public static double sumAndMultiplyAnddifferenceAndDivision(double first, double second) {
+    public static double sumAndMultiplyAndplusdifferenceAndplusdivision(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
-                + difference(first, second)
-                + division(first, second);
+                + plusdifference(first, second)
+                + plusdivision(first, second);
     }
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + differenceAndDivision(10, 20));
-        System.out.println("Результат расчета равен: " + sumAndMultiplyAnddifferenceAndDivision(10, 20));
+        System.out.println("Результат расчета равен: " + plusdifferenceAndPlusdivision(10, 20));
+        System.out.println("Результат расчета равен: " + sumAndMultiplyAndplusdifferenceAndplusdivision(10, 20));
     }
 }
