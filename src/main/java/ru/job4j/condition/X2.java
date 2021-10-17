@@ -36,5 +36,6 @@ public class X2 {
         int xFour = 1;
         int rslFour = X2.calc(aFour, bFour, cFour, xFour);
         System.out.println(rslFour);
+
     }
 }
