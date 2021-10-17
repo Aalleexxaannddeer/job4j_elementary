@@ -1,5 +1,7 @@
 package ru.job4j.converter;
 
+import ru.job4j.condition.X2;
+
 public class Converter {
     public static float rubleToEuro(float value) {
         return value / 70;
