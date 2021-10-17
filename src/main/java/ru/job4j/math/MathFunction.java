@@ -10,11 +10,11 @@ public class MathFunction {
         return first * second;
     }
 
-    public static double plusdivision(double first, double second) {
+    public static double division(double first, double second) {
         return first / second;
     }
 
-    public static double plusdifference(double first, double second) {
+    public static double difference(double first, double second) {
         return first - second;
     }
 }
