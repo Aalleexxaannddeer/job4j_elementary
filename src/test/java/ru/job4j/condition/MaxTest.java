@@ -29,7 +29,7 @@ public class MaxTest {
     public void whenMax2To2Then2() {
         int left = 2;
         int right = 2;
-        int result = Max.max(left, rightц);
+        int result = Max.max(left, right);
         int expected = 2;
         Assert.assertEquals(result, expected);
     }
