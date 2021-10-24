@@ -3,8 +3,6 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class TriangleTest {
 
     @Test
@@ -17,7 +15,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void exist() {
+    public void whenExistOne() {
         double ab = 22.0;
         double ac = 2.0;
         double bc = 2.0;
