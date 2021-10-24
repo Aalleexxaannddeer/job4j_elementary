@@ -12,9 +12,7 @@ public class TriangleTest {
         double ab = 2.0;
         double ac = 2.0;
         double bc = 2.0;
-        boolean result1 = !Triangle.exist(ab, ac, bc);
-        boolean result = Triangle.exist(ab, ac, bc);
-        Assert.assertTrue(result);
-        Assert.assertFalse(result1);
+        boolean result = !Triangle.exist(ab, ac, bc);
+        Assert.assertFalse(result);
     }
 }
