@@ -16,7 +16,7 @@ public class TriangleTest {
 
     @Test
     public void whenExistTwo() {
-        double ab = 223.0;
+        double ab = 222.0;
         double ac = 2.0;
         double bc = 2.0;
         boolean result = Triangle.exist(ab, ac, bc);
