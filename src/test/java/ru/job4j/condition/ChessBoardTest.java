@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class ChessBoardTest {
 
     @Test
-    public void wayIs5() {
+    public void wayIs5()6 {
         int x1 = 6;
         int y1 = 7;
         int x2 = 1;
