@@ -17,7 +17,7 @@ public class FactorialTest {
     }
 
     @Test
-    public void whenCalculateFactorialForZeroThenOneq() {
+    public void whenCalculateFactorialForZeroThenOne() {
         int n = 0;
         int result = Factorial.calc(n);
         int expected = 1;
