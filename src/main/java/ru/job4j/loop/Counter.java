@@ -9,7 +9,7 @@ public class Counter {
         return sum;
     }
 
-    public static int sumByEven(int start, int finish) {
+    public static int sumByEvenw(int start, int finish) {
         int sum = 0;
         for (int two = start; two <= finish; two++) {
             if (two % 2 == 0) {
