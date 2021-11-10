@@ -10,7 +10,7 @@ public class PrimeNumberTest {
     @Test
     public void when5() {
         int finish = 5;
-        int result = PrimeNumber.calc(finish)0;
+        int result = PrimeNumber.calc(finish);
         int expected = 3;
         Assert.assertEquals(expected, result);
     }
