@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class MortgageTest {q
+public class MortgageTest {
 
     @Test
     public void when5() {
