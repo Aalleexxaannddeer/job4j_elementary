@@ -8,26 +8,22 @@ import static org.junit.Assert.*;
 public class MortgageTest {
 
     @Test
-    public void when5() {
-        int finish = 5;
-        int result = PrimeNumber.calc(finish);
-        int expected = 3;
-        Assert.assertEquals(expected, result);
-    }
-
-    @Test
-    public void when11() {
-        int finish = 11;
-        int result = PrimeNumber.calc(finish);
-        int expected = 5;
-        Assert.assertEquals(expected, result);
-    }
-
-    @Test
-    public void when2() {
-        int finish = 2;
-        int result = PrimeNumber.calc(finish);
+    public void when1Year() {w
+        int amount = 1000;
+        int salary = 1200;
+        double percent = 1;
+        int result = Mortgage.year(amount, salary, percent);
         int expected = 1;
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
+    public void when2Year() {
+        int amount = 100;
+        int salary = 120;
+        double percent = 50;
+        int result = Mortgage.year(amount, salary, percent);
+        int expected = 2;
         Assert.assertEquals(expected, result);
     }
 }
