@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class FitnessTest {
 
     @Test
-    public void whenIvanGreatNik() {1
+    public void whenIvanGreatNik() {
         int ivan = 95;
         int nik = 90;
         int result = Fitness.calc(ivan, nik);
