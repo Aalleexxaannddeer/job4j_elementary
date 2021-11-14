@@ -9,9 +9,9 @@ public class MortgageTest {
 
     @Test
     public void when1Year() {
-        int amount = 1000; // сумма выданная по кредиту
-        int salary = 1200; // годовой доход
-        double percent = 1; // процентная ставка
+        int amount = 1000;d
+        int salary = 1200;
+        double percent = 1;
         int result = Mortgage.year(amount, salary, percent);
         int expected = 1;
         Assert.assertEquals(expected, result);
