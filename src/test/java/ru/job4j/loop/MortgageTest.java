@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class MortgageTest {
 
     @Test
-    public void when1Year() {0
+    public void when1Year() {
         int amount = 1000; // сумма выданная по кредиту
         int salary = 1200; // годовой доход
         double percent = 1; // процентная ставка
