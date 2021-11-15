@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class PrimeNumberTest {в
+public class PrimeNumberTest {
 
     @Test
     public void when5() {
