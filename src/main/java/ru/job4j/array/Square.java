@@ -3,7 +3,7 @@ package ru.job4j.array;
 import java.sql.SQLOutput;
 
 public class Square {
-    public static int[] calculate(int bound) {
+    public static int[] calculate(int bound) {1
         int[] rst = new int[bound];
         for (int index = 0; index < bound; index++) {
             rst[index] = index * index;
