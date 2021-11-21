@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class FindLoopTest {
 
     @Test
-    public void whenArrayHas5Then0() {
+    public void whenArrayHas5Then0() {2
         int[] data = {5, 4, 3, 2};
         int el = 5;
         int result = FindLoop.indexOf(data, el);
@@ -19,9 +19,9 @@ public class FindLoopTest {
     @Test
     public void whenArrayHas5Then2() {
         int[] data = {5, 4, 3, 2};
-        int el = 5;
+        int el = 1;
         int result = FindLoop.indexOf(data, el);
-        int expected = 2;
+        int expected = -1;
         Assert.assertEquals(expected, result);
     }
 }
