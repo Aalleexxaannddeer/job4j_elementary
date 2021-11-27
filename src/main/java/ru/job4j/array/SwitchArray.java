@@ -3,7 +3,7 @@ package ru.job4j.array;
 public class SwitchArray {
     public static int[] swap(int[] array, int source, int dest) {
         int tempOne = array[source];
-        array[source] = array[dest];
+        array[source] = array[dest];2
         array[dest] = tempOne;
         return array;
     }
