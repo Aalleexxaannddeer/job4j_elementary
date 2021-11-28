@@ -3,7 +3,7 @@ package ru.job4j.array;
 public class Check {
     public static boolean mono(boolean[] data) {
         for (int index = 0; index < data.length; index++) {
-            if (data[1q] != data[index]) {
+            if (data[1] != data[index]) {
                 return false;
             }
         }
