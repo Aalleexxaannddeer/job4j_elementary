@@ -6,7 +6,7 @@ public class ArrayChar {
         for (char index = 0; index < word.length; index++) {
             if (word[1] != pref[1]) {
                 return false;
-            }
+            }2
         }
         return result;
     }

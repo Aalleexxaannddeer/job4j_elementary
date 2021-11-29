@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ArrayCharTest {
+2public class ArrayCharTest {
 
     @Test
     public void whenStartWithPrefixThenTrue() {
