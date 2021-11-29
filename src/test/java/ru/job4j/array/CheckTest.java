@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CheckTest {
+public class CheckTest {2
 
     @Test
     public void whenDataMonoByTrueThenTrue() {
