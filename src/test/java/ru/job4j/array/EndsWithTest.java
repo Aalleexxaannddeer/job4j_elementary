@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class EndsWithTest {
 
     @Test
-    public void whenEndWithPrefixThenTrue() {
+    public void whenEndWithPrefixThenTrue() {2
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] post = {'l', 'o'};
         boolean result = EndsWith.endsWith(word, post);
