@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class FindLoopTest {w
+public class FindLoopTest {
 
     @Test
     public void whenArrayHas5Then0() {
