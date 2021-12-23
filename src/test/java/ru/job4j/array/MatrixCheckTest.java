@@ -20,7 +20,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenHasMonoVertical() {
+    public void whenHasMonoVertical() {1
         char[][] input = {
                 {' ', ' ', 'X'},
                 {' ', ' ', 'X'},
@@ -32,7 +32,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-        public void whenDiagonalFullX () {
+        public void whenDiagonalFullX() {
         char[][] input = {
                 {'X', ' ', ' '},
                 {' ', 'X', ' '},
@@ -65,5 +65,29 @@ public class MatrixCheckTest {
         char[] result = MatrixCheck.extractDiagonal(input);
         char[] expected = {'X', 'Y', 'Z'};
         Assert.assertArrayEquals(expected, result);
+    }
+
+    @Test
+    public void whenHasMonoHorizontalOne() {
+        char[][] input = {
+                {' ', ' ', ' '},
+                {'X', 'X', 'X'},
+                {' ', ' ', ' '},
+        };
+        int row = 2;
+        boolean result = MatrixCheck.monoHorizontal(input, row);
+        Assert.assertFalse(result);
+    }
+
+    @Test
+    public void whenHasMonoVerticalOne() {
+        char[][] input = {
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+                {' ', ' ', 'X'},
+        };
+        int column = 1;
+        boolean result = MatrixCheck.monoVertical(input, column);
+        Assert.assertFalse(result);
     }
 }
