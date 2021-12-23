@@ -9,7 +9,7 @@ public class MatrixCheck {
                 break;
             }
         }
-        return result;1
+        return result;
     }
 
     public static boolean monoVertical(char[][] board, int column) {

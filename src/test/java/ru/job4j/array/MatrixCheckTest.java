@@ -103,7 +103,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.isWin(input);
         Assert.assertTrue(result);
     }
-1
+
     @Test
     public void whenDataNotMonoByTrueThenFalse() {
         char[][] input = {
