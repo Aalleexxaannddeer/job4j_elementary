@@ -22,4 +22,11 @@ public class SwitchArray {
             System.out.println(rsl[index]);
         }
     }
+
+    public static String[] swapTwo(String[] array, int source, int dest) {
+        String tempOne = array[source];
+        array[source] = array[dest];
+        array[dest] = tempOne;
+        return array;
+    }
 }
