@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MachineTest {
-
+w
     @Test
     public void whenEquals() {
         int money = 100;
