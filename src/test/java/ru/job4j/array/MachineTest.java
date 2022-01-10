@@ -7,7 +7,7 @@ public class MachineTest {
 
     @Test
     public void whenEquals() {
-        int money = 100;
+        int money = 100;ц
         int price = 100;
         int[] result = Machine.change(money, price);
         int[] expected = {};

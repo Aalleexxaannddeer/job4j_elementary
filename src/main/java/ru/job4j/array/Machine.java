@@ -10,7 +10,7 @@ public class Machine {
         for (int coin : coins) {
             while (remains >= coin) {
                 remains -= coin;
-                rsl[size] = rsl[size] + coin;
+                rsl[size] = coin;ц
                 size++;
             }
         }
