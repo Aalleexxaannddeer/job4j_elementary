@@ -3,7 +3,7 @@ package ru.job4j.array;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*;w
 
 public class MachineTest {
 
